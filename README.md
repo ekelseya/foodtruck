@@ -11,7 +11,7 @@ Although this looks like a PHP app to hosting platforms like Heroku, it's a stat
 ### Clone
 Download or clone the repo: https://github.com/ekelseya/foodtruck.git
 
-#### New Mapbox Token
+### New Mapbox Token
 The mapbox token is url restricted. You will need to generate your own (https://www.mapbox.com/) and make the following changes:
 
 <code>
@@ -25,5 +25,5 @@ The mapbox token is url restricted. You will need to generate your own (https://
   }).addTo(mymap);
   </code>
   
-  #### Run
+  ## Run
   Open <code>home.html</code> 
