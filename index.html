@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Eryn Kelsey-Adkins">
+    <meta name="description"
+          content="Let's celebrate the Westminster High School CTE ProStart program's food truck!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Westy Wolves Food Truck</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin=""/>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+            integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+            crossorigin=""></script>
+</head>
+<body>
+<header>
+    <div class="hero">
+        <h1>Wolf Truck</h1>
+    </div>
+</header>
+<nav id="navigation">
+    <div class="logo">
+        <a href="#" aria-label="Home"><img src="media/westy-logo.png" alt="Westminster High School Logo"></a>
+    </div>
+    <ul>
+        <li class="home">Wolf Truck</li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#locations">Locations</a></li>
+    </ul>
+</nav>
+<hr>
+<section id="about">
+    <div class="top">
+        <h2 class="rellax">
+            About us
+        </h2>
+    </div>
+    <h3>
+        WHS CTE ProStart
+    </h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+    </p>
+</section>
+
+<section id="menu">
+    <div class="top">
+        <h2 class="rellax" data-rellax-speed="1">
+            Our Menu
+        </h2>
+    </div>
+
+    <hr>
+
+    <h3>
+        Starters
+    </h3>
+    <div class="menu-section">
+        <div class="item">
+            <h4>Puffy Things</h4>
+            <img src="media/starter1.jpg" alt="Putting the finishing touches on puffy things">
+        </div>
+        <div class="item">
+            <h4>Toasty Things</h4>
+            <img src="media/starter2.jpg" alt="Stuff on toast">
+        </div>
+        <div class="item">
+            <h4>Nibbly Things</h4>
+            <img src="media/starter3.jpg" alt="Fancy nibblies">
+        </div>
+    </div>
+
+    <hr>
+
+    <h3>
+        Entrees
+    </h3>
+    <div class="menu-section">
+        <div class="item">
+            <h4>Burger Basket</h4>
+            <img src="media/main1.jpg" alt="Burger and Slaw">
+        </div>
+        <div class="item">
+            <h4>Egg and Sous</h4>
+            <img src="media/main2.jpg" alt="Weird toasty eggy sandwichy">
+        </div>
+        <div class="item">
+            <h4>Sliders</h4>
+            <img src="media/main3.jpg" alt="Can't be a food truck without sliders">
+        </div>
+    </div>
+
+    <hr>
+
+    <h3>
+        Desserts
+    </h3>
+    <div class="menu-section">
+        <div class="item">
+            <h4>Fancy Dessert in a Glass</h4>
+            <img src="media/dessert1.jpg" alt="It has berries">
+        </div>
+        <div class="item">
+            <h4>Fancy Cake on a Plate</h4>
+            <img src="media/dessert2.jpg" alt="Probably pistachio">
+        </div>
+        <div class="item">
+            <h4>Fancy Cookies</h4>
+            <img src="media/dessert3.jpg" alt="Chocolate chip">
+        </div>
+    </div>
+
+    <hr>
+
+</section>
+
+<section id="locations">
+    <div class="top">
+        <h2>
+            Find us
+        </h2>
+    </div>
+
+    <h3>Event Schedule</h3>
+    <p>You can find us on Fridays from 11:00 a.m. to 1:00 p.m. in the Westminster High School parking lot. Or, our
+        full event schedule is posted on our social media.</p>
+    <div class="social">
+        <a href="https://facebook.com" title="Facebook" aria-label="Link to our Facebook page">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg>
+        </a>
+        <a href="https://twitter.com" title="Twitter" aria-label="Link to our Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"/></svg>
+        </a>
+        <a href="https://instagram.com" title="Instagram" aria-label="Link to our Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg>
+        </a>
+    </div>
+
+    <h3>Some of our favorite places</h3>
+    <div class="map-container">
+        <div id="mapid"></div>
+        <script>
+            const mymap = L.map('mapid').setView([39.8225, -105.0367], 13);
+
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWtlbHNleWEiLCJhIjoiY2tlMGwwZ25xMnFtazJybnhnZWRoMW9ubSJ9.3vOQluFDEQheUsEj0iexiw', {
+                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                maxZoom: 18,
+                id: 'mapbox/streets-v11',
+                tileSize: 512,
+                zoomOffset: -1,
+                accessToken: 'pk.eyJ1IjoiZWtlbHNleWEiLCJhIjoiY2tlMGwwZ25xMnFtazJybnhnZWRoMW9ubSJ9.3vOQluFDEQheUsEj0iexiw'
+            }).addTo(mymap);
+
+            const markerFest = L.marker([39.822421, -105.029481]).addTo(mymap);
+            markerFest.bindPopup("<b>Westminster Station Food Fest</b><br><b>August 7-9, 2020</b><br>6995 Grove St<br>Westminster, CO 80030").openPopup();
+
+            const markerSchool = L.marker([39.821844, -105.043358]).addTo(mymap);
+            markerSchool.bindPopup("<b>Westminster High</b><br>6933 Raleigh St<br>Westminster, CO 80030").openPopup();
+        </script>
+    </div>
+
+</section>
+
+<script src="js/rellax.min.js"></script>
+<script>
+    const rellax = new Rellax('.rellax');
+</script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
