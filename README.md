@@ -1,6 +1,10 @@
 # foodtruck
 Who doesn't love a food truck website?
 
+## Demo
+
+See the live demo at https://wolftruck.herokuapp.com/
+
 ## Install
 Although this looks like a PHP app to hosting platforms like Heroku, it's a static HTML/CSS/JavaScript website.
 
