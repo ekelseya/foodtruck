@@ -66,12 +66,13 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 nav {
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
-    width: 100vw;
     padding: 1rem 0 0;
     display: flex;
     justify-content: space-around;
@@ -156,8 +157,8 @@ nav ul li {
 
 .top {
     min-height: 100vh;
-    overflow: hidden;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     justify-content: center;
     background-position: center;
