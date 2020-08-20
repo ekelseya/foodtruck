@@ -69,11 +69,16 @@ p {
 }
 
 nav {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    padding: 1rem 0 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem 0 0;
     color: #000;
+    background-color: #fff;
+    z-index: 10000;
 }
 
 .home {
@@ -99,6 +104,7 @@ nav ul li a:focus {
     h1 {
         text-align: center;
     }
+
     nav {
         flex-direction: column;
     }
@@ -129,16 +135,6 @@ nav ul li a:focus {
         float: left;
         width: 100%;
     }
-
-}
-
-.fixed-nav nav {
-    background-color: #fff;
-    width: 100vw;
-    position: fixed;
-    top:0;
-    z-index: 10000;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 hr {
